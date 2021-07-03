@@ -1,0 +1,2 @@
+# ESTATE-mode-of-authenticated-encryption
+ESTATE uses two block ciphers named TweGIFT and TweAES. Within block ciphers, plain text is divided into ‘n’ number of blocks and each block is encrypted by a secret key ‘K’ to produce some output as a cipher text. The goal is to achieve better performance using smaller block sizes, simpler rounds, smaller key sizes and simpler key scheduling.Implementation of ESTATE TweAES-128 and TweGIFT-128 provides varying outputs in terms of different aspects such as LUTs, Frequencies, Number of clock cycles, Throughput amongst others.
